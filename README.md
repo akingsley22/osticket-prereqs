@@ -6,9 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,20 +20,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- PHP_Manager_For_IIS 
-- Rewrite_Module 
-- PHP-7.3.8 
-- VC_redist.x86 
-- MySQL-5.5.62 
-- HeidiSQL 
+-Create an Azure Virtual Machine on Windows 10, 4 vCPUs
+-Install/ Enable IIS in Windows with CGI & HTTP Features
+-Download and Install PHP_Manager_For_IIS, Rewrite_Module, VC_redist.x86, MySQL-5.5.62
+- Create the directory C:\PHP
+- Register PHP from within IIS (Run as Admin)
+- Download osTicket
+- Install HeidiSQL and complete osTicket
 
 <h2>Installation Steps</h2>
 
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/fa36e537-e8d1-4711-a93b-5044e5540a71)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To begin installing osTicket, you must first download the latest version of PHP and extract into the c:\PHP directory.
+  
 </p>
 <br />
 
