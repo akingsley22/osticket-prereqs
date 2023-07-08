@@ -129,7 +129,14 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/d035a19d-0feb-4db6-8374-83d1a4b54ad6)
 
 
-11.) 
+11.) Restart/Reload IIS again 
+
+12.) On IIS, go to sites, then click on Default and the osTicket
+
+     -After clicking on osTicket, click on "Browse *:80* on the right hand side of the page
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/5c13ddca-a821-461e-8ca3-97ae5d02c191)
+
 
 
 
