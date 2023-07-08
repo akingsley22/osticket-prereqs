@@ -157,6 +157,22 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
   ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/d679f2b7-2b93-4246-b2f5-2f914bdd6d5d)
 
+  15.) In C:\inetpub\wwwroot\osTicket\include, rename ost-sampleconfig.php to ost-config.php
+
+  16.) Now the file is renamed, right-click on it and go to properties.
+
+       -In properties, click on security ->Advanced -> Disable inheritance -> Remove all inherited permissions from this object
+
+       -Click on Add -> select a principle -> enter "everyone" -> click OK -> Allow "Full control" permissions -> Apply and OK
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/7bb7570e-5ef3-4168-baf5-939e70c3bd1e)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/f38f9db2-c750-439b-b76c-08d80e68ab7d)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/81ebadde-5cb4-4745-ba39-26d6b274a6a0)
+
+
+
      
 
 
