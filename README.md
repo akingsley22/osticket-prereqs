@@ -73,12 +73,16 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 3.) Now that IIS is enabled, Download and Install PHP_Manager_for_IIS and Rewrite Module
 
 4.) Create the directory C:\PHP
+
+5.) Download PHP 7.2.8 (or the most current version) and unzip the contents into C:\PHP
      
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+     
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/6296f9ad-2541-4b29-a533-f23b13e2dcb7)
+
 </p>
 <p>
 3.) 
