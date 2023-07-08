@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-To begin, we must first create a virtual machine withine the Microsoft azure portal. For this demonstration, the VM will be ran on a Windows 10 server with 2 vcpus and 16 GiB memory.
+1.) To begin, we must first create a virtual machine withine the Microsoft azure portal. For this demonstration, the VM will be ran on a Windows 10 server with 2 vcpus and 16 GiB memory.
 
 Once VM is created, connect to it using Remote Desktop Connection. We will connect using the public IP address that can be found in the overview section of the VM.
 
@@ -42,7 +42,10 @@ Once VM is created, connect to it using Remote Desktop Connection. We will conne
 
 
 <p>
-To begin installing osTicket, you must first download the latest version of PHP and extract into the c:\PHP directory.
+2.) After connecting successfully to the server, the next step is Installing IIS on windows and enabling CGI and HTTP Features. IIS is a web server that allows the computer serve up websites and because osTicekt runs out of a website, we need to set up and configure IIS.
+     -First step in doing this is double clicking on the programs setting in the control panel. Then click on programs, then "Turn Windows 
+      features on or off".
+     - Next enable CGI (under Application Development Features) and all Common HTTP features
   
 </p>
 <br />
