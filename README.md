@@ -137,6 +137,30 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/5c13ddca-a821-461e-8ca3-97ae5d02c191)
 
+13.) If everything is installed correctly, you should land on this webpage
+
+     -*Notice how some extensions are disabled. We are going to enable them in the next step.
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/41e84325-a66f-4cf8-9d6d-ec219c136fa0)
+
+14.) Now we are going to enable some of those disabled extensions
+
+     -First, we go back to IIS. Click on sites -> default -> osTicket 
+
+     -Double-click PHP Manager
+
+     -Click "Enable or disable an extension": Enable php_imap.dll, php_intl.dll, php_opcache.dll
+
+     -Refresh osTicket in your browser
+
+  ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/5085cba7-f282-474f-85bf-fe4d9243471d)
+
+  ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/d679f2b7-2b93-4246-b2f5-2f914bdd6d5d)
+
+     
+
+
+
 
 
 
