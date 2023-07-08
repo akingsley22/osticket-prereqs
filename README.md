@@ -116,6 +116,22 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/eefa26d8-20fc-4bca-9c54-098346f3c512)
 
+9.) Restart/Reload IIS (Stop and Start the server)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/fbae5db7-3bfb-4ce4-a4ff-1b028f6276d8)
+
+10.) Download osTicket (can be found in installation files)
+
+     -Extract and copy "upload" folder into C:\inetpub\wwwroot
+
+     -Within C:\inetpub\wwwroot, rename "upload" to "osTicket"
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/d035a19d-0feb-4db6-8374-83d1a4b54ad6)
+
+
+11.) 
+
+
 
 
 
