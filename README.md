@@ -96,6 +96,29 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/a549236b-6fa9-483c-aa7e-93b6bbbb291a)
 
+8.) Open IIS as an Admin and register PHP within IIS
+
+      - Search for IIS in the windows search bar. Right click and select run as administrator
+
+      -Double click on PHP Manager
+
+      -Click on Register new PHP version
+
+      -Click the 3 dots to browse for a path and select the php folder
+
+      -Open up the folder and select php-cgi
+      
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/8f227d79-79d4-49fd-850b-5c267c13462f)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/9165b1b1-0d93-4274-bc04-43fec6519460)
+
+***NOTE*** Make sure the file is php executable
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/eefa26d8-20fc-4bca-9c54-098346f3c512)
+
+
+
+
 
 </p>
 <br />
