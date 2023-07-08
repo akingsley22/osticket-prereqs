@@ -62,6 +62,11 @@ NOTE! To make sure IIS is properly installed, we can open up a web browser and e
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/b1cdebf9-ee2a-4e01-9c03-817a890a8a5f)
 
+Once IIS is installed, we can move on to the next step. If the installation did not work:
+       -Go back to control panel, under programs click on unistall a program. Then click on "Turn Windows 
+      features on or off". Uncheck in "Internet Information Services", click on okay and wait to uninstall.
+       - Repeat step 2 again.
+       
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
