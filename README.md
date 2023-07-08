@@ -70,7 +70,10 @@ Once IIS is installed, we can move on to the next step. If the installation did 
        - Repeat step 2 again.
        
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3.) Now that IIS is enabled, Download and Install PHP_Manager_for_IIS and Rewrite Module
+
+4.) Create the directory C:\PHP
+     
 </p>
 <br />
 
