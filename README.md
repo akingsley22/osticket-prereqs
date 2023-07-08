@@ -53,7 +53,8 @@ Once VM is created, connect to it using Remote Desktop Connection. We will conne
 <br />
 
 <p>
-![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/8d148f81-793a-4497-b0e9-61d519b3a500)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/830d376d-2e9a-4825-a422-4d80becc72dd)
 
 </p>
 <p>
