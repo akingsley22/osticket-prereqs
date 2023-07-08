@@ -44,7 +44,7 @@ Once VM is created, connect to it using Remote Desktop Connection. We will conne
 <p>
 2.) After connecting successfully to the server, the next step is Installing IIS on windows and enabling CGI and HTTP Features. IIS is a web server that allows the computer serve up websites and because osTicekt runs out of a website, we need to set up and configure IIS.
      
-     -First step in doing this is double clicking on the programs setting in the control panel. Then click on programs, then "Turn Windows 
+     -First step in doing this is double clicking on the programs setting in the control panel. Then click on "Turn Windows 
       features on or off".
       
      - Next enable CGI (under Application Development Features) and all Common HTTP features
@@ -57,6 +57,11 @@ Once VM is created, connect to it using Remote Desktop Connection. We will conne
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/830d376d-2e9a-4825-a422-4d80becc72dd)
 
 </p>
+
+NOTE! To make sure IIS is properly installed, we can open up a web browser and enter in 127.0.0.1 (loopback) and this page to pop up.
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/b1cdebf9-ee2a-4e01-9c03-817a890a8a5f)
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
@@ -66,6 +71,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3.) 
 </p>
 <br />
