@@ -34,7 +34,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/fa36e537-e8d1-4711-a93b-5044e5540a71)
+To begin, we must first create a virtual machine withine the Microsoft azure portal. For this demonstration, the VM will be ran on a Windows 10 server with 2 vcpus and 16 GiB memory.
+
+Once VM is created, connect to it using Remote Desktop Connection. We will connect using the public IP address that can be found in the overview section of the VM.
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/0f27a8ef-f794-4ee8-9e1b-e5018ce4323b)
+
 
 <p>
 To begin installing osTicket, you must first download the latest version of PHP and extract into the c:\PHP directory.
