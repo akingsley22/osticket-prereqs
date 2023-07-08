@@ -87,5 +87,15 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 6.) Download and Install VC_redist
 
 7.) Download and Install MySQL
+
+    -Typical Setup -> Launch Configuration Wizard (after installation)
+    
+    -Standard Config and install -> New root passowrd -> Execute -> Finish.
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/be6f35bc-50a3-41c7-b3dd-c177d51b252a)
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/a549236b-6fa9-483c-aa7e-93b6bbbb291a)
+
+
 </p>
 <br />
