@@ -191,6 +191,10 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
 Now you can log into your osTicket account on their website http://localhost/osTicket/scp/login.php
 
+**Clean up**
+
+For security reasons, it is best practice to delete setup directory in C:\inetpub\wwwroot\osTicket\setup and Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
 
 </p>
 <br />
