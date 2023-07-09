@@ -189,20 +189,7 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/76914213-ff08-4ba5-b47c-e18f42d4b2cf)
 
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
+Now you can log into your osTicket account on their website http://localhost/osTicket/scp/login.php
 
 
 </p>
