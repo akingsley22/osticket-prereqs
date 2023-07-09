@@ -181,6 +181,15 @@ Once IIS is installed, we can move on to the next step. If the installation did 
      -MySQL Database: osTicket
      -MySQL Username: root
      -MySQL Password: "Your Password"
+     -Click "Install Now"
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/2fcf18d6-3f3e-47ec-aa75-7d5b69a71bc2)
+
+***Congratulations!! You have successfully installed osTicket.**
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/76914213-ff08-4ba5-b47c-e18f42d4b2cf)
+
+
 
 
 
