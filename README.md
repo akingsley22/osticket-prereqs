@@ -44,8 +44,7 @@ Once VM is created, connect to it using Remote Desktop Connection. We will conne
 2.) After connecting successfully to the server, the next step is Installing IIS on windows and enabling CGI and HTTP Features. IIS is a web server that allows the computer serve up websites and because osTicekt runs out of a website, we need to set up and configure IIS.
      
      -First step in doing this is double clicking on the programs setting in the control panel. Then click on "Turn Windows 
-      features on or off".
-      
+      features on or off".  
      - Next enable CGI (under Application Development Features) and all Common HTTP features
   
 </p>
@@ -65,7 +64,6 @@ Once IIS is installed, we can move on to the next step. If the installation did 
        
        -Go back to control panel, under programs click on unistall a program. Then click on "Turn Windows 
         features on or off". Uncheck in "Internet Information Services", click on okay and wait to uninstall.
-       
        - Repeat step 2 again.
        
 <p>
@@ -89,7 +87,6 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 7.) Download and Install MySQL
 
     -Typical Setup -> Launch Configuration Wizard (after installation)
-    
     -Standard Config and install -> New root passowrd -> Execute -> Finish.
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/be6f35bc-50a3-41c7-b3dd-c177d51b252a)
@@ -99,20 +96,16 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 8.) Open IIS as an Admin and register PHP within IIS
 
       - Search for IIS in the windows search bar. Right click and select run as administrator
-
       -Double click on PHP Manager
-
       -Click on Register new PHP version
-
       -Click the 3 dots to browse for a path and select the php folder
-
       -Open up the folder and select php-cgi
       
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/8f227d79-79d4-49fd-850b-5c267c13462f)
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/9165b1b1-0d93-4274-bc04-43fec6519460)
 
-***NOTE*** Make sure the file is php executable
+***NOTE** Make sure the file is php executable
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/eefa26d8-20fc-4bca-9c54-098346f3c512)
 
@@ -123,7 +116,6 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 10.) Download osTicket (can be found in installation files)
 
      -Extract and copy "upload" folder into C:\inetpub\wwwroot
-
      -Within C:\inetpub\wwwroot, rename "upload" to "osTicket"
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/d035a19d-0feb-4db6-8374-83d1a4b54ad6)
@@ -148,9 +140,7 @@ Once IIS is installed, we can move on to the next step. If the installation did 
      -First, we go back to IIS. Click on sites -> default -> osTicket 
 
      -Double-click PHP Manager
-
      -Click "Enable or disable an extension": Enable php_imap.dll, php_intl.dll, php_opcache.dll
-
      -Refresh osTicket in your browser
 
   ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/5085cba7-f282-474f-85bf-fe4d9243471d)
@@ -162,7 +152,6 @@ Once IIS is installed, we can move on to the next step. If the installation did 
   16.) Now the file is renamed, right-click on it and go to properties.
 
        -In properties, click on security ->Advanced -> Disable inheritance -> Remove all inherited permissions from this object
-
        -Click on Add -> select a principle -> enter "everyone" -> click OK -> Allow "Full control" permissions -> Apply and OK
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/7bb7570e-5ef3-4168-baf5-939e70c3bd1e)
@@ -170,6 +159,30 @@ Once IIS is installed, we can move on to the next step. If the installation did 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/f38f9db2-c750-439b-b76c-08d80e68ab7d)
 
 ![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/81ebadde-5cb4-4745-ba39-26d6b274a6a0)
+
+17.) After allowing permissions we will continue setup in the browser. Fill out information that is required on setup osTicket page except "Database Settings" at the bottom of the page. We will get to this in the next step.
+
+***NOTE** With every password you use, make sure to write it down somewhere safe where only you have access to it.
+
+18.) Download and install HeidiSQL from Installation Files
+     
+     -Open HeidiSQL
+     -Create a new session with username as root and your password. Then click on open
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/51e1fd31-d1c6-47d0-bb89-5a9774a6caa5)
+
+     -Next, right click on "Unnamed" and click on "Create new" -> "Database"
+     -Name Database "osTicket"
+
+![image](https://github.com/akingsley22/osticket-prereqs/assets/138138839/3d9e5bd1-7a39-421b-862f-1c0cb9ff5732)
+
+***-** Now go back to osTicket Installer on your browser and fill ou the "Database Settings" option
+
+     -MySQL Database: osTicket
+     -MySQL Username: root
+     -MySQL Password: "Your Password"
+
+
 
 
 
